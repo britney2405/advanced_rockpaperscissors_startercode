@@ -27,4 +27,8 @@
 
 
 // DOCUMENT READY FUNCTION
-
+$(document).ready(function(){
+        $("#button").click(function(){
+         alert("hi")      
+        })
+})
