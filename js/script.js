@@ -30,5 +30,9 @@
 $(document).ready(function(){
         $("#button").click(function(){
          alert("hi")      
+         var array=["rock" "paper" "scissors"]
+         var random=(Math.floor(Math.random()*2));
+         var computerchoice=array[random]
+         var userchoice=$(id)
         })
 })
